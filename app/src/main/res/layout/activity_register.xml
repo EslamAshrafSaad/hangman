@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eslamashraf.hangman.RegisterActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bb">
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:background="@drawable/backgrountwo"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/without_back"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:drawableLeft="@drawable/ic_account_box"
+                        android:id="@+id/firstName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:hint=" First Name" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/without_back"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:drawableLeft="@drawable/ic_account_box"
+                        android:id="@+id/lastName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:hint=" Last Name" />
+
+                </LinearLayout>
+
+
+                -
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/without_back"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/Email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_mail_outline"
+                        android:hint=" E-mail"
+                        android:inputType="textEmailAddress" />
+
+                </LinearLayout>
+
+
+                -
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/without_back"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/passWord"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_lock"
+                        android:ems="10"
+                        android:hint=" Password"
+                        android:inputType="textPassword" />
+
+                </LinearLayout>
+
+
+                -
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/without_back"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/confirmPassWord"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_lock"
+                        android:ems="10"
+                        android:hint=" Confirm Password"
+                        android:inputType="textPassword" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/signUp22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/without_back"
+                    android:text="Sign Up"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>

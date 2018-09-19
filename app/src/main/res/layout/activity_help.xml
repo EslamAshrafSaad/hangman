@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context="com.example.eslamashraf.hangman.HelpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/backgrountwo"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="45sp"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to play?" />
+
+        <TextView
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guess letters one at a time to solve the word puzzle.
+Click a letter to guess it, Each time you solve a word your score will increase by 5 points and your coins will increase by 5 coins.
+Up for a challenge? if you guess a wrong letter another part of the man will added to the hang.
+you have 5 wrong guesses until you lose.
+you have some tolls to help you, find to find a letter, delete to delete a letter and solve to solve the word.
+you must sign in to play.
+password length at least 8 letters or numbers,mail must be a valid mail (contains '@' and '.com') " />
+
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

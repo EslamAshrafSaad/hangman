@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context="com.example.eslamashraf.hangman.SignRegisterActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bb">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/backgrountwo"
+
+            >
+
+            <Button
+                android:id="@+id/signIn11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/without_back"
+                android:text="Sign In" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shapebutton" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="OR"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shapebutton" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/signUP11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/without_back"
+                android:text="Sign UP" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shapebutton" />
+
+                <TextView
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="OR"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shapebutton" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/without_back"
+                android:text="Sign Out" />
+
+        </LinearLayout>
+    </ScrollView>
+    </android.support.constraint.ConstraintLayout>

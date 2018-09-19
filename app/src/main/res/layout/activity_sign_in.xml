@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eslamashraf.hangman.SignInActivity">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bb">
+
+
+            -
+
+            <LinearLayout
+                android:background="@drawable/backgrountwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/Email22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/without_back"
+                    android:drawableLeft="@drawable/ic_mail_outline"
+                    android:ems="10"
+                    android:hint=" E-Mail"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/passWord22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/without_back"
+                    android:drawableLeft="@drawable/ic_lock"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="10dp" />
+
+                <Button
+
+                    android:id="@+id/signIn22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/without_back"
+                    android:text="Sign In"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:textSize="25sp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/forgotPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/without_back"
+                    android:text="Forgot Password?" />
+
+                <Button
+                    android:id="@+id/dont"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/without_back"
+                    android:text="Dont have an account?" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
